@@ -27,46 +27,16 @@
     <main>
         <div class="container">
             <h3>Available Skills</h3>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <div class="card-header">
-                        <h4>Python Tutoring</h4>
-                        <span class="price">$20/hour</span>
-                    </div>
-                    <p class="provider">By Sarah Johnson</p>
-                    <p class="description">Expert Python programming tutor specializing in data science and web development. Perfect for beginners and intermediate learners.</p>
-                    <p class="category">Category: Programming</p>
-                </div>
+            
+            <div id="filter-buttons">
+                <button class="filter-btn" data-category="All">All</button>
+                <button class="filter-btn" data-category="Programming">Programming</button>
+                <button class="filter-btn" data-category="Music">Music</button>
+                <button class="filter-btn" data-category="Career">Career</button>
+            </div>
 
-                <div class="skill-card">
-                    <div class="card-header">
-                        <h4>JavaScript Help</h4>
-                        <span class="price">$25/hour</span>
-                    </div>
-                    <p class="provider">By Mike Chen</p>
-                    <p class="description">Full-stack developer offering JavaScript mentoring. Focus on React, Node.js, and modern web development practices.</p>
-                    <p class="category">Category: Programming</p>
-                </div>
-
-                <div class="skill-card">
-                    <div class="card-header">
-                        <h4>Guitar Lessons</h4>
-                        <span class="price">$15/hour</span>
-                    </div>
-                    <p class="provider">By Alex Rivera</p>
-                    <p class="description">Professional guitarist teaching acoustic and electric guitar. All genres welcome, from beginner to advanced.</p>
-                    <p class="category">Category: Music</p>
-                </div>
-
-                <div class="skill-card">
-                    <div class="card-header">
-                        <h4>Digital Photography</h4>
-                        <span class="price">$30/hour</span>
-                    </div>
-                    <p class="provider">By Emma Liu</p>
-                    <p class="description">Learn professional photography techniques, editing skills, and composition. Hands-on training with your camera.</p>
-                    <p class="category">Category: Photography</p>
-                </div>
+            <div id="skills-container" class="skills-grid">
+                <!-- Skill cards will be dynamically inserted here -->
             </div>
         </div>
     </main>
